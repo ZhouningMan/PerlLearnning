@@ -42,6 +42,7 @@ sub main{
 	
 	foreach my $line(@lines){
 		#dereference a one dimension array 
+		#-> this is a C dereference operator for pointer type!
 		print $line->[0]."\n";
 	}
 }
